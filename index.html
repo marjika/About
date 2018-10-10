@@ -12,12 +12,12 @@
 <style>
 body,h1,h5 {font-family: "Raleway", sans-serif}
 body, html {height: 100%}
-.bgimg {
-    background-image: url('css/images/arches1.jpg');
-    min-height: 100%;
-    background-position: center;
-    background-size: cover;
-}
+  .bgimg {
+      background-image: url('css/images/arches1.jpg');
+      min-height: 100%;
+      background-position: center;
+      background-size: cover;
+  }
 </style>
 <body>
 
@@ -118,11 +118,15 @@ body, html {height: 100%}
         <body class="w3-light-grey">
         <!-- Page Container -->
 <div class="w3-content w3-margin-top" style="max-width:1400px;">
-        <span onclick="document.getElementById('resume').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
-
+  <div class="w3-container w3-black">
+        <button onclick="document.getElementById('resume').style.display='none'" class="w3-button w3-display-topright w3-large">x</button>
+        <button class="w3-button w3-display-topleft w3-large"><a href="css/Marjika-Howarth-Resume.pdf" download="Marjika-Howarth-Resume">
+          <i class="fa fa-download fa-fw w3-margin-right w3-button"></i>Download Resume
+        </a></button>
+  </div>
 
     <!-- The Grid -->
-    <div class="w3-row-padding">
+    <div class="w3-row-padding" style="margin-top: 3%">
     <br>
       <!-- Left Column -->
       <div class="w3-third">
